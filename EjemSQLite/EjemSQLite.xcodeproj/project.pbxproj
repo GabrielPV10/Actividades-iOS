@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		FBB46F882F8D6F1D0094DEF0 /* ContadorBoton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContadorBoton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6D45272F996BEE008C8F42 /* EjemSQLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EjemSQLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		FBB46F8A2F8D6F1D0094DEF0 /* ContadorBoton */ = {
+		FB6D45292F996BEE008C8F42 /* EjemSQLite */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ContadorBoton;
+			path = EjemSQLite;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FBB46F852F8D6F1D0094DEF0 /* Frameworks */ = {
+		FB6D45242F996BEE008C8F42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FBB46F7F2F8D6F1D0094DEF0 = {
+		FB6D451E2F996BEE008C8F42 = {
 			isa = PBXGroup;
 			children = (
-				FBB46F8A2F8D6F1D0094DEF0 /* ContadorBoton */,
-				FBB46F892F8D6F1D0094DEF0 /* Products */,
+				FB6D45292F996BEE008C8F42 /* EjemSQLite */,
+				FB6D45282F996BEE008C8F42 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FBB46F892F8D6F1D0094DEF0 /* Products */ = {
+		FB6D45282F996BEE008C8F42 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FBB46F882F8D6F1D0094DEF0 /* ContadorBoton.app */,
+				FB6D45272F996BEE008C8F42 /* EjemSQLite.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,67 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FBB46F872F8D6F1D0094DEF0 /* ContadorBoton */ = {
+		FB6D45262F996BEE008C8F42 /* EjemSQLite */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBB46F962F8D6F1F0094DEF0 /* Build configuration list for PBXNativeTarget "ContadorBoton" */;
+			buildConfigurationList = FB6D45352F996BEF008C8F42 /* Build configuration list for PBXNativeTarget "EjemSQLite" */;
 			buildPhases = (
-				FBB46F842F8D6F1D0094DEF0 /* Sources */,
-				FBB46F852F8D6F1D0094DEF0 /* Frameworks */,
-				FBB46F862F8D6F1D0094DEF0 /* Resources */,
+				FB6D45232F996BEE008C8F42 /* Sources */,
+				FB6D45242F996BEE008C8F42 /* Frameworks */,
+				FB6D45252F996BEE008C8F42 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				FBB46F8A2F8D6F1D0094DEF0 /* ContadorBoton */,
+				FB6D45292F996BEE008C8F42 /* EjemSQLite */,
 			);
-			name = ContadorBoton;
+			name = EjemSQLite;
 			packageProductDependencies = (
 			);
-			productName = ContadorControl;
-			productReference = FBB46F882F8D6F1D0094DEF0 /* ContadorBoton.app */;
+			productName = EjemSQLite;
+			productReference = FB6D45272F996BEE008C8F42 /* EjemSQLite.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FBB46F802F8D6F1D0094DEF0 /* Project object */ = {
+		FB6D451F2F996BEE008C8F42 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					FBB46F872F8D6F1D0094DEF0 = {
+					FB6D45262F996BEE008C8F42 = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = FBB46F832F8D6F1D0094DEF0 /* Build configuration list for PBXProject "ContadorBoton" */;
+			buildConfigurationList = FB6D45222F996BEE008C8F42 /* Build configuration list for PBXProject "EjemSQLite" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = FBB46F7F2F8D6F1D0094DEF0;
+			mainGroup = FB6D451E2F996BEE008C8F42;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FB6D45382F9972BA008C8F42 /* XCRemoteSwiftPackageReference "SQLite" */,
+			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = FBB46F892F8D6F1D0094DEF0 /* Products */;
+			productRefGroup = FB6D45282F996BEE008C8F42 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FBB46F872F8D6F1D0094DEF0 /* ContadorBoton */,
+				FB6D45262F996BEE008C8F42 /* EjemSQLite */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FBB46F862F8D6F1D0094DEF0 /* Resources */ = {
+		FB6D45252F996BEE008C8F42 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +118,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FBB46F842F8D6F1D0094DEF0 /* Sources */ = {
+		FB6D45232F996BEE008C8F42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +128,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FBB46F942F8D6F1F0094DEF0 /* Debug */ = {
+		FB6D45332F996BEF008C8F42 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +191,7 @@
 			};
 			name = Debug;
 		};
-		FBB46F952F8D6F1F0094DEF0 /* Release */ = {
+		FB6D45342F996BEF008C8F42 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,14 +247,15 @@
 			};
 			name = Release;
 		};
-		FBB46F972F8D6F1F0094DEF0 /* Debug */ = {
+		FB6D45362F996BEF008C8F42 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ContadorControl/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"EjemSQLite/Preview Content\"";
+				DEVELOPMENT_TEAM = QRV9FULVPS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -264,7 +268,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TECNM.TUXLA.ContadorControl;
+				PRODUCT_BUNDLE_IDENTIFIER = TECNM.TUXLA.EjemSQLite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -272,14 +276,15 @@
 			};
 			name = Debug;
 		};
-		FBB46F982F8D6F1F0094DEF0 /* Release */ = {
+		FB6D45372F996BEF008C8F42 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ContadorControl/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"EjemSQLite/Preview Content\"";
+				DEVELOPMENT_TEAM = QRV9FULVPS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -292,7 +297,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TECNM.TUXLA.ContadorControl;
+				PRODUCT_BUNDLE_IDENTIFIER = TECNM.TUXLA.EjemSQLite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -303,25 +308,36 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FBB46F832F8D6F1D0094DEF0 /* Build configuration list for PBXProject "ContadorBoton" */ = {
+		FB6D45222F996BEE008C8F42 /* Build configuration list for PBXProject "EjemSQLite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FBB46F942F8D6F1F0094DEF0 /* Debug */,
-				FBB46F952F8D6F1F0094DEF0 /* Release */,
+				FB6D45332F996BEF008C8F42 /* Debug */,
+				FB6D45342F996BEF008C8F42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBB46F962F8D6F1F0094DEF0 /* Build configuration list for PBXNativeTarget "ContadorBoton" */ = {
+		FB6D45352F996BEF008C8F42 /* Build configuration list for PBXNativeTarget "EjemSQLite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FBB46F972F8D6F1F0094DEF0 /* Debug */,
-				FBB46F982F8D6F1F0094DEF0 /* Release */,
+				FB6D45362F996BEF008C8F42 /* Debug */,
+				FB6D45372F996BEF008C8F42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FB6D45382F9972BA008C8F42 /* XCRemoteSwiftPackageReference "SQLite" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.16.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
-	rootObject = FBB46F802F8D6F1D0094DEF0 /* Project object */;
+	rootObject = FB6D451F2F996BEE008C8F42 /* Project object */;
 }

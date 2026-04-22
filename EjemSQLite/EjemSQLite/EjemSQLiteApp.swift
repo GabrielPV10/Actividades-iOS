@@ -1,14 +1,14 @@
 //
-//  ContadorControlApp.swift
-//  ContadorControl
+//  EjemSQLiteApp.swift
+//  EjemSQLite
 //
-//  Created by Alumno on 13/04/26.
+//  Created by Alumno on 22/04/26.
 //
 
 import SwiftUI
 
 @main
-struct ContadorControlApp: App {
+struct EjemSQLiteApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
